@@ -205,6 +205,62 @@
         <apexClass>TestLightningConnectQuickstart</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>Quip__Quip_LightingComponent_Controller</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Quip__Quip_LightingComponent_Controller_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Quip__Quip_ReportExport_Controller</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Quip__Quip_ReportExport_Controller_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Quip__Quip_VFComponent_Controller</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Quip__Quip_VFComponent_Controller_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Quip__SFDCEncoder</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ltnadptn__udpateUsingLightningCheckboxTests</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ltnadptn__updateCanUseLightningCheckboxBatch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ltnadptn__updateUsingLightningCheckboxBatch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ltnadptn__updateUsingLightningCheckboxController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ltnadptn__updateUsingLightningCheckboxScheduler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ltnadptn__updateUsingLightningCheckboxUtils</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ltnadptn__updateUsingLightningScheduleExcecute</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <pageAccesses>
         <apexPage>DreamHouseSampleData</apexPage>
         <enabled>true</enabled>
@@ -219,6 +275,50 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>LightningConnectQuickstart</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Quip__OpenReportInQuip</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Quip__PackageSetup</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Quip__Quip_Comp_Accounts</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Quip__Quip_Comp_Campaigns</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Quip__Quip_Comp_Cases</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Quip__Quip_Comp_Contacts</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Quip__Quip_Comp_Contracts</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Quip__Quip_Comp_Leads</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Quip__Quip_Comp_Opportunities</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Quip__Quip_Comp_Solutions</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>ltnadptn__LightningAdoptionTrackerSetup</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <applicationVisibilities>
@@ -315,6 +415,21 @@
         <application>standard__Sites</application>
         <default>false</default>
         <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>footprint__Field_Footprint</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>ltnadptn__Lightning_Adoption_Reporting</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>trailheadapp__Trailhead_Tracker</application>
+        <default>false</default>
+        <visible>false</visible>
     </applicationVisibilities>
     <externalDataSourceAccesses>
         <enabled>false</enabled>
@@ -1520,6 +1635,21 @@
         <field>Task.WhoId</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>trailheadapp__Badge__c.trailheadapp__External_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>trailheadapp__Trail__c.trailheadapp__External_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>trailheadapp__Trailmix__c.trailheadapp__Creator_TH_SFID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -1740,6 +1870,69 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>myobj__c-myobj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>footprint__All_Reports__c-footprint__All Reports Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>footprint__Analysis_log__c-footprint__Analysis log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>footprint__Batch_Parameter__mdt-footprint__Batch Parameter Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>footprint__FootPrint__c-footprint__Foot_Print Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>footprint__Foot_Print_RecordType__c-footprint__Footprint RecordType Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>footprint__Footprint_AllFU__c-footprint__Field updates Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>footprint__Footprint_AllFields__c-footprint__AllFields Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>footprint__Footprint_AllObjects__c-footprint__AllObjects Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>footprint__Footprint_AllWF__c-footprint__All workflows Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>footprint__Footprint_Line_Item_Detail__c-footprint__Footprint Line Item Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>footprint__Footprint_Line_Item__c-footprint__Foot Print Line Items Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>footprint__Release_Org_settings__mdt-footprint__Release_Org_settings Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ltnadptn__Lightning_Adoption_Report_Snapshot__c-ltnadptn__Lightning Adoption Report Snapshot Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>trailheadapp__Badge__c-trailheadapp__Trailhead Badge Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>trailheadapp__Debug_Log__c-trailheadapp__Debug Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>trailheadapp__Setting__mdt-trailheadapp__Setting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>trailheadapp__Trail__c-trailheadapp__Trail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>trailheadapp__Trailmix_Assignment__c-trailheadapp__Trailmix Assignment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>trailheadapp__Trailmix__c-trailheadapp__Trailmix Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>trailheadapp__User_Badge__c-trailheadapp__Trailhead User Badge Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>trailheadapp__User_Trailmix__c-trailheadapp__User Trailmix Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>
@@ -2024,6 +2217,26 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>footprint__FootPrint__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>trailheadapp__Badge__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>trailheadapp__Trail__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>trailheadapp__Trailmix__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>trailheadapp__User_Badge__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userPermissions>
