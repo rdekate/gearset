@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Date Closed --></label>
+        <name>Date_Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>Department__c</name>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR</masterLabel>
+            <translation><!-- HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hiring Manager --></label>
+        <lookupFilter>
+            <errorMessage><!-- In order to be Hiring Manager, the user must be people manager. --></errorMessage>
+        </lookupFilter>
+        <name>Hiring_Manager__c</name>
+        <relationshipLabel><!-- Positions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OS --></label>
+        <name>OS__c</name>
+        <picklistValues>
+            <masterLabel>Mac</masterLabel>
+            <translation><!-- Mac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UX</masterLabel>
+            <translation><!-- UX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Win</masterLabel>
+            <translation><!-- Win --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pay Grade --></label>
+        <name>Pay_Grade__c</name>
+        <picklistValues>
+            <masterLabel>FI1</masterLabel>
+            <translation><!-- FI1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI2</masterLabel>
+            <translation><!-- FI2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI3</masterLabel>
+            <translation><!-- FI3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI4</masterLabel>
+            <translation><!-- FI4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR1</masterLabel>
+            <translation><!-- HR1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR2</masterLabel>
+            <translation><!-- HR2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR3</masterLabel>
+            <translation><!-- HR3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR4</masterLabel>
+            <translation><!-- HR4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT1</masterLabel>
+            <translation><!-- IT1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT2</masterLabel>
+            <translation><!-- IT2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT3</masterLabel>
+            <translation><!-- IT3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT4</masterLabel>
+            <translation><!-- IT4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SU1</masterLabel>
+            <translation><!-- SU1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SU2</masterLabel>
+            <translation><!-- SU2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SU3</masterLabel>
+            <translation><!-- SU3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SU4</masterLabel>
+            <translation><!-- SU4 --></translation>
+        </picklistValues>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Position</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Positions</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <layouts>
+        <layout>Approved Position Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Tech Details --></label>
+            <section>Tech Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Position Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Tech Position Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Tech Details --></label>
+            <section>Tech Details</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Approved Position --></label>
+        <name>Approved_Position</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Technical Position --></label>
+        <name>Technical_Position</name>
+    </recordTypes>
+</CustomObjectTranslation>
